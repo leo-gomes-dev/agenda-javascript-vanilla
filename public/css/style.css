@@ -1,0 +1,14 @@
+#msgSuccess,
+#msgError {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.borderValida {
+  border: 1px solid red;
+}

@@ -1,0 +1,63 @@
+{
+  "contatos": [
+    {
+      "nome": "Lidia",
+      "sobrenome": "Gomes",
+      "telefone": "279975961123",
+      "operadora": {
+        "id": "2",
+        "nome": "Claro"
+      },
+      "id": "5QHRCXTlzcg"
+    },
+    {
+      "nome": "Asaph",
+      "sobrenome": "Gomes",
+      "telefone": "27997596140",
+      "operadora": {
+        "id": "1",
+        "nome": "Vivo"
+      },
+      "id": "NsPLGZKzH_A"
+    },
+    {
+      "nome": "Mary",
+      "sobrenome": "Gomes",
+      "telefone": "27997596140",
+      "operadora": {
+        "id": "3",
+        "nome": "Tim"
+      },
+      "id": "0ga2vqq3OSg"
+    },
+    {
+      "nome": "Leo",
+      "sobrenome": "Gomes",
+      "telefone": "27997596140",
+      "operadora": {
+        "id": "4",
+        "nome": "Oi"
+      },
+      "id": "KvdBC_tf-c0"
+    }
+  ],
+  "operadoras": [
+    {
+      "id": "1",
+      "nome": "claro"
+    },
+    {
+      "id": "2",
+      "nome": "Oi"
+    },
+    {
+      "id": "3",
+      "nome": "Vivo"
+    },
+    {
+      "id": "4",
+      "nome": "Tim"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

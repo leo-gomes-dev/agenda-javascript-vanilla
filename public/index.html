@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <title>Agenda</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="text-center mt-5">
+        <h1>Agenda</h1>
+        <p>Salve seus contatos!</p>
+      </div>
+      <form>
+        <fieldset>
+          <legend>Cadastro</legend>
+          <div class="row">
+            <!-- Campo Nome -->
+            <div class="mb-3 col-sm-6">
+              <label class="form-label">Nome</label>
+              <input type="text" class="form-control" id="nome" />
+            </div>
+            <!-- Campo Sobrenome -->
+            <div class="mb-3 col-sm-6">
+              <label class="form-label">Sobrenome</label>
+              <input type="text" class="form-control" id="sobrenome" />
+            </div>
+          </div>
+          <div class="row">
+            <!-- Campo Telefone -->
+            <div class="mb-3 col-sm-6">
+              <label class="form-label">Telefone</label>
+              <input type="text" class="form-control" id="telefone" />
+            </div>
+
+            <!-- Campo Operadora -->
+            <div class="mb-3 col-sm-6">
+              <label class="form-label">Operadora</label>
+              <select id="operadora" class="form-select">
+                <option value="">Selecione a operadora</option>
+                <option value="1">Vivo</option>
+                <option value="2">Claro</option>
+                <option value="3">Tim</option>
+                <option value="4">Oi</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Mensagem de Sucesso ou Erro -->
+          <div class="alert" role="alert" id="msg"></div>
+          <!-- <button id="btnLimpar" class="btn btn-danger">Limpar</button> -->
+          <!-- <button id="btnCadastrar" class="btn btn-success">Cadastrar</button> -->
+          <button id="btnCadastrar" class="btn btn-success">Cadastrar</button>
+          <hr />
+
+          <!-- table -->
+          <table id="tabelaAgenda" class="table table-light text-center">
+            <thead class="thead-dark">
+              <tr class="table-dark">
+                <th scope="col">Nome</th>
+                <th scope="col">Sobrenome</th>
+                <th scope="col">Telefone</th>
+                <th scope="col">Operadora</th>
+                <th scope="col" colspan="2">Opçoes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr></tr>
+            </tbody>
+          </table>
+        </fieldset>
+      </form>
+      <div class="mb-6"></div>
+      <footer class="footer mt-5 mb-5 text-center text-muted">
+        <a
+          class="fs-6 fw-bold text-decoration-none text-secondary"
+          href="https://leogomesdev.com/#contact"
+          target="_blank"
+        >
+          Leo Gomes Developer
+        </a>
+      </footer>
+    </main>
+    <script src="./script/main.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
