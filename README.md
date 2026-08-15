@@ -36,7 +36,7 @@ Abra o terminal do seu computador e execute os comandos abaixo para obter a sua 
 
 ```bash
 # Clone o repositório (Substitua SEU-USUARIO pelo seu nome no GitHub)
-git clone https://github.com/SEU-USUARIO/sua-agenda-contatos.git
+git clone https://github.com/leo-gomes-dev/agenda-javascript-vanilla.git
 
 # Acesse a pasta do projeto
 cd sua-agenda-contatos
